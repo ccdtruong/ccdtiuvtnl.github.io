@@ -3,13 +3,12 @@ var aLove = new Array(
   "Those who understand binary, and those who don't"
   );
   var aNo = new Array(
-    "Byeeeeeeee. Yêu báccccccccc"
+    "Byeeeeeeee =))))). Yêu báccccccccc"
   );
   var aText;
   var iSpeed = 100; // time delay of print out
   var iIndex = 0; // start printing array at this posision
-  var iScrollAt = 20; // start scrolling up at this many lines
-   
+  var iScrollAt = 20; // start scrolling up at this many lines   
   var iTextPos = 0; // initialise text position
   var sContents = ''; // initialise contents variable
   var iRow; // initialise current row
@@ -98,12 +97,14 @@ const btn_xem = document.getElementById("xem");
 const btn_yes = document.getElementById("yes");
 const btn_no = document.getElementById("no");
 const title = document.getElementById("title");
+const img = document.getElementById("image");
 
 btn_xem.addEventListener("click", function() {
   typewriter("xem");
   btn_yes.style.display = "none";
   btn_no.style.display = "none";
   title.style.display = "none";
+  img.style.display = "block";
 });
 btn_no.addEventListener("click", function() {
   typewriter("no");
