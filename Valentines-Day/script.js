@@ -1,6 +1,5 @@
-var aLove = new Array(
-  "There are only 10 types of people in the world:", 
-  "Those who understand binary, and those who don't"
+var aLove = new Array( 
+  "Chỉ mún nói là iu bác ạ =))))"
   );
   var aNo = new Array(
     "Byeeeeeeee =))))). Yêu báccccccccc"
@@ -98,6 +97,7 @@ const btn_yes = document.getElementById("yes");
 const btn_no = document.getElementById("no");
 const title = document.getElementById("title");
 const img = document.getElementById("image");
+const img_no = document.getElementById("no_img");
 
 btn_xem.addEventListener("click", function() {
   typewriter("xem");
@@ -111,6 +111,8 @@ btn_no.addEventListener("click", function() {
   btn_yes.style.display = "none";
   title.style.display = "none";
   btn_no.style.display = "none";
+  img_no.style.display = "block";
+
 });
 btn_yes.addEventListener("click", function() {
   var top = Math.floor(Math.random() * (window.innerHeight - btn_yes.offsetHeight));
