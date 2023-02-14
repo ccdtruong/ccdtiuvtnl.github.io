@@ -1,0 +1,61 @@
+html,
+body {
+    background-color: #DB6666;
+    font-family: 'Anonymous pro', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 3rem;
+    display: flex;
+    cursor: default;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+}
+#falling-hearts {
+    animation: wobble 60s ease-in infinite;
+    position: fixed;
+    inset: 0 0 0 0;
+    pointer-events: none;
+}
+
+.heart {
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1000;
+    position: fixed;
+}
+#typedtext
+{
+    display: none;
+}
+#continue-prompt {
+    cursor: pointer;
+  }
+#xem
+{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 3rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#xem:hover
+{
+    background: #eee;
+}
+.button
+{
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #A7C7E7;
+}
