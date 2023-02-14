@@ -26,7 +26,7 @@ var aLove = new Array(
      aText = aLove;
      console.log(aText);
    }
-   if(x = "no")
+   if(x == "no")
    {
      aText = aNo;
    }
