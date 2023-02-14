@@ -1,7 +1,6 @@
 html,
 body {
     background-color: #DB6666;
-    font-family: 'Anonymous pro', cursive;
     font-size: 25px;
     font-weight: bold;
     line-height: 3rem;
@@ -36,6 +35,7 @@ body {
 {
     border: none;
     background-color: inherit;
+    color: rgb(0, 0, 0);
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
@@ -54,8 +54,11 @@ body {
 }
 .button
 {
-    width: 100px;
+    width: 120px;
     height: 50px;
     font-size: 16px;
+    color:black;
     background-color: #A7C7E7;
+    border-radius: 12px;
+    border: 2px solid #000000; 
 }
